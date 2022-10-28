@@ -1,0 +1,17 @@
+.tool__imege {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  box-shadow: 7px 15px 20px rgba(84, 1, 1, 0.677);
+  margin: 0 60px 30px 0;
+  float: left;
+  vertical-align: top;
+}
+
+@media (max-width: 767px) {
+  .tool__imege {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto 20px auto;
+  }
+}

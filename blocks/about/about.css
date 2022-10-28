@@ -1,0 +1,14 @@
+.about {
+  background: rgb(32, 5, 0);
+  background: linear-gradient(8deg, rgb(32, 5, 0) 54%, rgba(0, 0, 0, 1) 63%);
+  margin: 0 auto;
+  padding: 150px 0 150px 0;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding: 0 0 100px 0;
+  }
+}

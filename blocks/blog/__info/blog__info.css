@@ -1,0 +1,21 @@
+.blog__info {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 145%;
+  margin: 0px 0px 10px 30px;
+}
+
+@media (max-width: 767px) {
+  .blog__info {
+    margin: 0 0 0 15px;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 479px) {
+  .blog__info {
+    font-size: 18px;
+  }
+}

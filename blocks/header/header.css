@@ -1,0 +1,16 @@
+.header {
+  background: url(../../images/home.jpg) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 767px) {
+  .header {
+    align-items: center;
+  }
+}

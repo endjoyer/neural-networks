@@ -1,0 +1,21 @@
+.ps__text {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .ps__text {
+    text-align: center;
+    font-size: 23px;
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 479px) {
+  .ps__text {
+    font-size: 21px;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,10 @@
+.tool__imege-container {
+  padding: 40px 0 0 0;
+}
+
+@media (max-width: 767px) {
+  .tool__imege-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

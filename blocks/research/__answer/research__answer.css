@@ -1,0 +1,38 @@
+.lbl-jobtype {
+  padding: 5px 10px;
+  border: 2px solid rgb(1, 52, 234);
+  border-radius: 10%;
+  color: rgb(1, 52, 234);
+  transition: all 0.3s ease 0s;
+}
+
+.lbl-jobtype:hover {
+  opacity: 0.8;
+}
+
+input[name='jobtype'] {
+  display: none;
+}
+
+.research__answer {
+  display: none;
+}
+
+#jt-аstronaut:checked ~ #t-аstronaut {
+  display: block;
+}
+
+#jt-bear:checked ~ #t-bear {
+  display: block;
+}
+
+#jt-radish:checked ~ #t-radish {
+  display: block;
+}
+
+.research__answer {
+  margin: 25px 0 0 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}

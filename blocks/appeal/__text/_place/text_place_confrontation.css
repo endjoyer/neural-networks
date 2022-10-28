@@ -1,0 +1,23 @@
+.text_place_confrontation {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 35px;
+  margin: 0 60px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .text_place_confrontation {
+    margin: 0 30px;
+    font-size: 21px;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 479px) {
+  .text_place_confrontation {
+    margin: 0 18px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

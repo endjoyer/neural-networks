@@ -1,0 +1,18 @@
+.research__content {
+  max-width: 1200px;
+  padding: 100px 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .research__content {
+    padding: 80px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .research__content {
+    padding: 60px 10px;
+  }
+}

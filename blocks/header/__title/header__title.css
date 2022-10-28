@@ -1,0 +1,29 @@
+.header__title {
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  max-width: 1400px;
+  margin: 55px 63px 60px 63px;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 90px;
+  z-index: 3;
+}
+
+@media (max-width: 767px) {
+  .header__title {
+    text-align: center;
+    margin: 0 40px 50px 40px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 479px) {
+  .header__title {
+    margin: 0 30px 50px 30px;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+  }
+}

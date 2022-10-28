@@ -1,0 +1,18 @@
+.my-opinion {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+
+@media (max-width: 767px) {
+  .my-opinion {
+    text-align: center;
+    padding: 90px 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .my-opinion {
+    padding: 80px 20px;
+  }
+}

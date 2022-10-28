@@ -1,0 +1,21 @@
+.research__title-images {
+  max-width: 750px;
+  margin: 70px auto 40px auto;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+@media (max-width: 767px) {
+  .research__title-images {
+    font-size: 22px;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 479px) {
+  .research__title-images {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,9 @@
+.conclusion-main {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    30deg,
+    rgba(0, 0, 0, 1) 15%,
+    rgb(37, 0, 0) 70%,
+    rgb(50, 42, 0) 95%
+  );
+}

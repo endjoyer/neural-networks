@@ -1,0 +1,23 @@
+.preface__title {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  max-width: 1300px;
+  margin: 0 50px 0 50px;
+}
+
+@media (max-width: 767px) {
+  .preface__title {
+    margin: 0 40px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 479px) {
+  .preface__title {
+    margin: 0 15px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+}

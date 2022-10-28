@@ -1,0 +1,11 @@
+.research__images-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-items: center;
+}
+
+@media (max-width: 767px) {
+  .research__images-container {
+    display: block;
+  }
+}

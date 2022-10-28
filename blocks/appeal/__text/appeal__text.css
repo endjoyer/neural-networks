@@ -1,0 +1,33 @@
+.appeal__text {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  margin: 35px 60px 0 60px;
+  text-align: center;
+}
+
+.appeal__text:first-child {
+  margin: 0 60px;
+}
+
+@media (max-width: 767px) {
+  .appeal__text {
+    margin: 30px 30px 0 30px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .appeal__text:first-child {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .appeal__text {
+    margin: 30px 10px 0 10px;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .appeal__text:first-child {
+    margin: 0 25px;
+  }
+}
