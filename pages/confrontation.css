@@ -23,7 +23,6 @@
 @import url(../blocks/blog/__item/blog__item.css);
 @import url(../blocks/blog/__article-name/blog__article-name.css);
 @import url(../blocks/blog/__info/blog__info.css);
-@import url(../blocks/blog/__date/blog__date.css);
 @import url(../blocks/blog/__separator/blog__separator.css);
 @import url(../blocks/blog/__category/blog__category.css);
 @import url(../blocks/blog/__text/blog__text.css);
@@ -31,9 +30,7 @@
 @import url(../blocks/my-opinion/__text/my-opinion__text.css);
 @import url(../blocks/research/research.css);
 @import url(../blocks/research/__content/research__content.css);
-@import url(../blocks/research/__top-container/research__top-container.css);
 @import url(../blocks/research/__title/research__title.css);
-@import url(../blocks/research/__subtitle/research__subtitle.css);
 @import url(../blocks/research/__main-image/research__main-image.css);
 @import url(../blocks/research/__text/research__text.css);
 @import url(../blocks/research/__title-images/research__title-images.css);
