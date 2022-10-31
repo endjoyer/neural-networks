@@ -19,13 +19,13 @@
 
 ## *__Технологии__*
 
--HTML
+- HTML
 
--CSS
+- CSS
 
--JS
+- JS
 
--PHP
+- PHP
 
 ---
 
