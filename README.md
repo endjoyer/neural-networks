@@ -1,5 +1,7 @@
 # *__neural-networks__*
 
+## https://endjoyer.github.io/neural-networks/index.html
+
 Этот сайт рассказывает об изобразительном искусстве генерируемом нейросетями.
 
 ## *__Причина создания__*
