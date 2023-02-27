@@ -160,6 +160,7 @@
 }
 
 .button input[type='submit']:hover {
+  cursor: pointer;
   background: rgb(0, 0, 207);
 }
 
