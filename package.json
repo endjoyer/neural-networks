@@ -30,5 +30,13 @@
     "deploy": "gh-pages -d dist"
   },
   "author": "Abamzarov Aleksey",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endjoyer/neural-networks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/endjoyer/neural-networks/issues"
+  },
+  "homepage": "https://github.com/endjoyer/neural-networks#readme"
 }

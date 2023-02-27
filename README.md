@@ -67,7 +67,10 @@ And also for training purposes, and because I am interested in this topic.
 
 - HTML
 - CSS
+- BEM Nested
+- Accessibility
 - JS
+- Webpack
 - PHP
 
 ---
