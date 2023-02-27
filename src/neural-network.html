@@ -6,8 +6,6 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="author" content="Aleksey Abamzarov">
-   <link rel="stylesheet" href="./pages/neural-network.css">
-   <link rel="icon" href="./images/icon-neural.png">
 </head>
 
 <body class="root">
@@ -82,7 +80,7 @@
                      target="_blank" href="https://www.craiyon.com/">Craiyon</a>, <a class="link" target="_blank"
                      href="https://t.me/DALLEminiBot">телеграм-бот</a></p>
                <div class="tool__imege-container">
-                  <img class="tool__imege" src="./images/neural-network-images/DALL-E-Mini.png"
+                  <img class="tool__imege" src="<%=require('./images/neural-network-images/DALL-E-Mini.png')%>"
                      alt="Изображения от DALL-E Mini">
                   <p class="tool__text">
                      Начнем, пожалуй, с DALL-E Mini и несмотря на название, он напрямую не связана с DALL-E от OpenAI.
@@ -121,7 +119,7 @@
                      href="https://discord.com/invite/xV7dNbT9NU">discord-канал</a>, <a class="link" target="_blank"
                      href="https://t.me/sber_rudalle_xl_bot">телеграм-бот</a></p>
                <div class="tool__imege-container">
-                  <img class="tool__imege" src="./images/neural-network-images/ruDALL-E.png"
+                  <img class="tool__imege" src="<%=require('./images/neural-network-images/ruDALL-E.png')%>"
                      alt="Изображения от ruDALL-E">
                   <p class="tool__text">
                      ruDALL-E — сервис от разработчиков «Сбера», поэтому он умеет генерировать картинки по описанию на
@@ -158,9 +156,10 @@
                </p>
                <div class="tool__imege-container imege-container_place_wombo">
                   <picture>
-                     <source srcset="./images/neural-network-images/mobil.jpg" media="(max-width: 768px)">
-                     <source srcset="./images/neural-network-images/pc.jpg">
-                     <img class="tool__imege" src="./images/neural-network-images/pc.jpg"
+                     <source srcset="<%=require('./images/neural-network-images/mobil.jpg')%>"
+                        media="(max-width: 768px)">
+                     <source srcset="<%=require('./images/neural-network-images/pc.jpg')%>">
+                     <img class="tool__imege" src="<%=require('./images/neural-network-images/pc.jpg')%>"
                         alt="Изображение от Dream by WOMBO">
                   </picture>
                   <p class="tool__text">
@@ -186,7 +185,7 @@
                      iOS</a> и <a class="link" target="_blank"
                      href="https://play.google.com/store/apps/details?id=com.starryai&hl=ru&gl=US">Android</a></p>
                <div class="tool__imege-container">
-                  <img class="tool__imege" src="./images/neural-network-images/Starryai.png"
+                  <img class="tool__imege" src="<%=require('./images/neural-network-images/Starryai.png')%>"
                      alt="Изображение от Starryai">
                   <p class="tool__text">
                      Нейросеть создает арты на основе текстового описания, но с дополнениями. Можно сразу задать
@@ -216,7 +215,7 @@
                   (но это сложно, я даже не пробовал)
                </p>
                <div class="tool__imege-container">
-                  <img class="tool__imege" src="./images/neural-network-images/stable-diffusion.png"
+                  <img class="tool__imege" src="<%=require('./images/neural-network-images/stable-diffusion.png')%>"
                      alt="Изображения от Stable Diffusion">
                   <p class="tool__text">
                      Новая нейросеть наделала много шума в 2022 году. Stable Diffusion позволяет создавать визуальную
@@ -241,7 +240,7 @@
                <p class="tool__subtitle">Где попробовать: <a class="link" href="https://discord.com/invite/midjourney"
                      target="_blank">discord-сервер проекта</a></p>
                <div class="tool__imege-container">
-                  <img class="tool__imege" src="./images/neural-network-images/Midjourney.png"
+                  <img class="tool__imege" src="<%=require('./images/neural-network-images/Midjourney.png')%>"
                      alt="Изображение от Midjourney">
                   <p class="tool__text">
                      Midjourney совсем недавно перешла в стадию бета-теста: любой может присоединиться к каналу
@@ -277,7 +276,6 @@
          </div>
       </footer>
    </div>
-   <script src="./scripts/hamburger-menu.js"></script>
 </body>
 
 </html>
