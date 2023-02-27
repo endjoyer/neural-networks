@@ -1,8 +1,8 @@
 {
   "name": "neural-networks",
   "version": "1.0.0",
-  "description": "* О проекте\r * Сайт\r * Figma",
-  "main": "index.js",
+  "description": "Этот сайт рассказывает об изобразительном искусстве генерируемом нейросетями.",
+  "main": "babel.config.js",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
@@ -29,12 +29,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Abamzarov Aleksey",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/endjoyer/neural-networks.git"
   },
+  "author": "Aleksey Abamzarov",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/endjoyer/neural-networks/issues"
   },
