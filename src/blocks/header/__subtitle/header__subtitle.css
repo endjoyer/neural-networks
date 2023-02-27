@@ -3,9 +3,9 @@
   max-width: 690px;
   z-index: 3;
   margin: 0 64px 30px 64px;
-  font-size: 22px;
+  font-size: 21px;
   font-weight: normal;
-  line-height: 30px;
+  line-height: 28px;
 }
 
 @media (max-width: 767px) {
